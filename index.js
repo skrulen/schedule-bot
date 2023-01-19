@@ -10,5 +10,5 @@ bot.on('message', msg => {
   const text = msg.text;
   const uid = msg.chat.id;
   console.log(`${msg.from.username}: ${text}`);
-  console.log(msg+'');
+  console.log(msg);
 })
