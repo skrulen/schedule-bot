@@ -9,6 +9,7 @@ let info;
 bot.on('message', msg => {
   const text = msg.text;
   const uid = msg.chat.id;
+  bot.sendMessage(id, '1')
   console.log(`${msg.from.username}: ${text}`);
   console.log(msg);
 })
